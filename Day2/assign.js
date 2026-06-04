@@ -1,5 +1,6 @@
 let name="Janet Naveena", roll=31, maths=80, science=90, english=95, computer=100, social=81;
-let total = maths + science + english + computer + social,average = total / 5,percentage=average,grade;
+let total = maths + science + english + computer + social;
+let average = total / 5, percentage=average, grade;
 
 if(average >= 90) grade = "A";
 else if(average >= 80) grade = "B";

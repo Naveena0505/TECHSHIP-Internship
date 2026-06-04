@@ -1,39 +1,9 @@
 const students = [
-    {
-        id: 111,
-        name: "Evelin",
-        age: 20,
-        course: "BCA",
-        marks: [75, 80, 60, 85, 90]
-    },
-    {
-        id: 112,
-        name: "Anna",
-        age: 21,
-        course: "BSc CS",
-        marks: [50, 66, 65, 70, 80]
-    },
-    {
-        id: 113,
-        name: "Janet",
-        age: 21,
-        course: "BTech CSE",
-        marks: [90, 95, 92, 88, 91]
-    },
-    {
-        id: 114,
-        name: "Kelna",
-        age: 22,
-        course: "BTech CSE",
-        marks: [75, 70, 68, 72, 80]
-    },
-    {
-        id: 115,
-        name: "Diya",
-        age: 21,
-        course: "BCom",
-        marks: [78, 80, 75, 82, 79]
-    }
+    {id: 111,name: "Evelin",age: 20,course: "BCA",marks: [75, 80, 60, 85, 90]},
+    {id: 112, name: "Anna", age: 21,course: "BSc CS",marks: [50, 66, 65, 70, 80]},
+    {id: 113, name: "Janet",age: 21, course: "BTech CSE",marks: [90, 95, 92, 88, 91]},
+    {id: 114,name: "Kelna",age: 22,course: "BTech CSE",marks: [75, 70, 68, 72, 80]},
+    {id: 115,name: "Diya",age: 21,course: "BCom",marks: [78, 80, 75, 82, 79]}
 ];
 // Calculate average for each student
 const studentAverages = students.map(student => {

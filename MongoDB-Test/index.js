@@ -1,7 +1,6 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
 
-const uri =
-  "mongodb://naveena_db_user:janet123@ac-arr6e6r-shard-00-00.f4rmvzw.mongodb.net:27017,ac-arr6e6r-shard-00-01.f4rmvzw.mongodb.net:27017,ac-arr6e6r-shard-00-02.f4rmvzw.mongodb.net:27017/?ssl=true&replicaSet=atlas-fd8uc3-shard-0&authSource=admin&appName=Cluster0";
+const uri = process.env.MONGODB_URI;
 
 const client = new MongoClient(uri, {
   serverApi: {
